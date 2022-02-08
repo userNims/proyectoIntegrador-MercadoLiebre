@@ -320,18 +320,54 @@ footer div.info-footer {
 }
 
 .top-header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 
 .logo, .compraST, .input{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container-footer{
     display: flex;
 }
 
-/* .footer-card{
-    width: 100px;
-} */
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+/*  */
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+header nav div.service{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 30px;
+    font-size: 14px;
+    /* font-size: 12px;
+    margin-left: 20px; */
+}
+
+header nav div.account{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 50%;
+    padding-left: 50px;
+    font-size: 14px;
+    /* font-size: 12px;
+    margin-left: 20px; */
+}
